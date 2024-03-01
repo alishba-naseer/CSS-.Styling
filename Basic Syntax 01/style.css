@@ -1,0 +1,43 @@
+*{
+    font-family: 'Times New Roman'
+}
+
+ #box {
+       background-color: palevioletred;
+       color: bisque;
+       height: 70px;
+       border: 5px dashed brown;
+       }
+/* 
+ .heading{
+    color: red;
+}  */
+ 
+  h1, h2, h3{
+    color: rgb(228, 6, 6);
+} 
+
+ 
+button{
+    background-color: green;
+} 
+#h1{
+    text-align: center;
+    text-transform: capitalize;
+    text-decoration: underline;
+}
+#outer{
+    font-size: 25px;
+}
+#inner{
+    font-size: 10px;
+}
+.div{
+    height: 100px;
+    width: 100px;
+    background-color: pink;
+    border: 2px solid brown;
+     border-radius: 50px;
+    padding:25px;
+    margin: 25px;
+} 

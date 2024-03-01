@@ -1,0 +1,18 @@
+                     /* Level # 05 Transition states */
+        div{
+            height: 100px;
+            width: 100px;
+            background-color: aquamarine;
+            border: 2px solid black;
+            transition: all 2s ease-in 1s;
+        }               
+
+        div:hover{
+            background-color: brown;
+            color: antiquewhite;
+            font-size: 20px;
+        } 
+
+        div:active{
+            background-color: pink;
+        }     

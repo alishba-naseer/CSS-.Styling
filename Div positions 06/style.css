@@ -1,0 +1,49 @@
+                                    /* div Positions */
+
+      div{
+        height: 100px;
+        width: 100px;
+        background-color: aqua;
+        border: 2px solid black;
+        display: inline-block;
+     }   
+     
+     #box1{
+        position: static;
+        top: 50px;
+        bottom: 100px;          
+             /* static position have no change */
+     }
+
+     #box2{
+        position: relative;
+        top: 20px;
+        left: 20px;
+        z-index: 5;
+     }
+
+     #box3{
+        position: absolute;
+        /* top: 10px; */
+         top: 150px;
+        left:80px;
+     }
+
+     #box4{
+        /* position: fixed;  */
+        position: sticky;
+        top: 0px;
+        /* right: 10px; */
+        /* bottom: 0px; */
+        /* width: 100vw; */
+     }
+     #box5{
+        position: fixed;
+        top: 0px;
+     }
+     #box6{
+        position: relative;
+        top: 10px;
+        z-index:5 ;
+     }
+                  
