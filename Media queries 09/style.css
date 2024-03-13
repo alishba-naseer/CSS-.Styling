@@ -21,5 +21,6 @@
        @media(min-width: 200px) and (max-width: 300px){
         div{
             background-color: blue;
+            
         }
        }      
